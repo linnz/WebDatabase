@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html >
+        <meta charset="utf-8">
+	<head>
+		<title>源图――发现更美的世界</title>
+		<link rel="stylesheet" type="text/css" href="./css/mystyle.css"/>
+	</head>
+	<script language="javascript" type="text/JavaScript" >
+			function checkform(form){
+				if(form.username.value==""){
+					alert("请输入用户名");
+					form.username.focus();
+					return false;
+				}
+				if(form.userPassword.value==""){
+					alert("请输入密码");
+					form.userPassword.focus();
+					return false;
+				}
+				if(form.userPassword1.value==""){
+					alert("请确认密码");
+					form.userPassword1.focus();
+					return false;
+				}
+				if(form.userPassword.value!=form.userPassword1.value){
+					alert("两次密码不一致");
+					form.userPassword1.focus();
+					return false;
+				}
+				if(form.email.value==""){
+					alert("请输入邮箱");
+					form.email.focus();
+					return false;
+				}
+				return true;
+
+			}
+		</script>
+	<body>
+		<div id="top">
+			<div id="tit1">
+				<span id = "tile">源.图.</span>
+			</div>
+			<div id="top1" >
+				<span class = "topset"><a href="index.html">首页</a></span>
+			</div>
+			<div id="top2">
+				<span class = "topset">浏览</span>
+			</div>
+			<div id="top3">
+				<span class = "topset">发现</span>
+			</div>
+			<div id="top4">
+				<span class = "topset">关于</span>
+			</div>
+			<div id = "denglu">
+				<span class = "topset"><a href="login.html">登陆</a></span>
+			</div>
+			<div id = "zhuce">
+				<span class = "topset"><a href="register.html">注册</a></span>
+			</div>
+		</div>
+		<div id="midup" style="position: relative;" >			
+			<div id="midimage" style="position: absolute;">
+			    <img src="./image/breada.png" width="100%" height="100%" />
+		<div class="zc">
+		<h1>注册</h1>
+		<div id="mid">
+		<form  action="register_new_user.jsp" method="post" onsubmit="return checkform(this);">
+				<div id="mar">
+					<ul style="padding-left: 5px;text-align: left">
+						<li style="list-style-type:none;">
+							<label style="width: 70px; float:left; line-height:26px;" for="			aaa">用户名:
+							</label>
+							<input width="20" height="15" name="username" type="text"/>
+							<span style="color:black">*可包含数字、字母、下划线*</span>
+						</li>	
+				</div>
+				<div id="mar">
+					<ul style="padding-left: 5px;text-align: left">
+						<li style="list-style-type:none;">
+							<label style="width: 70px; float:left; line-height:26px;" for="			aaa">密码:
+							</label>
+							<input type="password" name="userPassword" size="       " value   =""/>
+							<span style="color:black">*不少于6个字符*</span>
+						</li>	
+				</div>
+				<div id="mar">
+					<ul style="padding-left: 5px;text-align: left">
+						<li style="list-style-type:none;">
+							<label style="width: 70px; float:left; line-height:26px;" for="     aaa">确认密码:
+							</label>
+								<input type="password" name="userPassword1" size="        " value=""/>
+						</li>	
+				</div>
+				<div id="mar">
+					<ul style="padding-left: 5px;text-align: left"/>
+					<li style="list-style-type:none;">
+						<label style="width: 70px; float:left; line-height:26px;" for="		aaa">邮箱:
+						</label>
+						<input name="email" type="text"/>
+						<span style="color:black">*请输入有效邮箱*
+						</span>
+					</li>	
+				</div>
+		
+		</div>
+		<div  class='setcheckbox'>
+							<input type="checkbox" name="checkbox1"  checked="checked">我已经看过并同意《网络服务协议》</input>
+						</div>
+		<div >
+								<input type="submit" value="立即注册" >
+		</div>
+	</div>
+	</form>
+			</div>
+			<img src="./image/backimage4.jpg" width="100%" height="100%" />
+		</div>
+
+
+	</body>
+</html>

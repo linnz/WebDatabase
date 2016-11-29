@@ -1,0 +1,265 @@
+#top{
+	
+	height:70px;
+	width:100%;
+	background-color:#C1C1C1;
+}
+#tit1{
+	height:70px;
+	width:35%;
+	float:left;
+	}
+#top1{
+	height:70px;
+	width:10%;
+	float:left;
+}
+#top2{
+	height:70px;
+	width:10%;
+	float:left;
+}
+#top3{
+	height:70px;
+	width:10%;
+	float:left;
+}
+#top4{
+	height:70px;
+	width:10%;
+	float:left;
+}
+#denglu{
+	height:70px;
+	width:10%;
+	float:left;
+}
+#zhuce{
+	height:70px;
+	width:10%;
+	float:left;
+}
+#midup{
+	
+	height:540px;
+	width:100%;
+	float:left;
+	
+}
+
+#midimage{
+	width:78%;
+	height:500px;
+	margin-top:20px;
+	margin-left:150px;
+	margin-right:auto;
+	background-color:#CCCCFF;
+	float:auto;
+	opacity: 0.9;
+}
+#mid1{
+	height:660px;
+	width:100%;
+	float:left;
+}
+#mid2{
+	height:750px;
+	float:left;
+	margin-left:60px;
+}
+#midleft{
+	height:100%;
+	width:80%;
+	float:left;
+	background-color:white;
+}
+#midright{
+	height:100%;
+	width:20%;
+	float:left;
+	padding:20px,20px,20px,20px;
+}
+#midtop{
+	margin:0 0 0 0;
+	height:45px;
+	width:100%;
+	float:auto;
+}
+
+#low{
+	height:120px;
+	width:100%;
+	background-color:#E5E5E5;
+	float:left;
+	padding-top:20px;
+}
+#tile{
+	margin:15px 0 75% 25%;
+    font-size: 45px;
+	display: block;
+    font-family: "微软雅黑";
+	color:#8B8878;
+	
+}
+#jinriremen{
+	font-size:25px;
+
+	color:gray;
+	margin-top:20px;
+	display: block;
+}
+#tuijiantuji{
+	font-size:25px;
+/*	margin-left:60px;*/
+	color:gray;
+	margin-top:20px;
+	display: block;	
+}
+
+.topset{
+	margin:15px 0 0 30%;
+    font-size: 25px;
+	display: block;
+    font-family: "Î¢ÈíÑÅºÚ";
+	color:white;
+}
+.remenzuozhe{
+	display: block;
+	color:gray;
+	margin-top:5px;
+}
+.remen{
+	margin-top:20px;
+	margin-left:60px;
+	width:27%;
+	height:260px;
+	float:left;
+}
+.tuji{
+	margin-top:20px;
+	/*margin-left:60px;*/
+	margin-right:65px;
+	margin-bottom:40px;
+	width:28%;
+	height:300px;
+	float:left;	
+}
+.tujijianjie{
+	display: block;
+	color:gray;
+	margin-top:5px;
+}
+body{
+	margin: 0px;
+}
+
+#sousuo{
+	font-size: 22px;
+	display: block;
+	margin-top:50px;
+	margin-left:50px;
+	color:gray;
+}
+#sousuokuang{
+	font-size: 22px;
+	display: block;
+	margin-top:10px;
+	margin-left:50px;
+	color:gray;
+	opacity: 0.95;
+}
+#sousuojianyi{
+	font-size: 17px;
+	display: block;
+	margin-top:20px;
+	margin-left:50px;
+	color:gray;
+	opacity: 0.95;
+}
+
+.login-form {
+	background:white;
+	position: absolute;
+	left: 50.9%;
+	top:80px;
+	width: 47%;
+	height: 80%;
+	text-align: center;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+
+}
+
+input[type="submit"]{
+  font-size: 30px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background:green;
+  margin-top: 3%;
+  margin-left: 3%;  
+  width: 90%;
+  padding: 18px 0;
+  border-bottom-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-o-border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-o-border-bottom-right-radius: 15px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background: #ff2775;
+  border-bottom-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-o-border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-o-border-bottom-right-radius: 15px;
+  	transition: 1s all;
+	-webkit-transition: 1s all;
+	-moz-transition: 1s all;
+	-o-transition: 1s all;
+}
+
+.test{
+	margin-top: 50px;
+}
+
+.setcheckbox{
+	text-align: left;
+	margin-left: 5%;
+	margin-top:5%; 
+	font-size: 14;
+
+}
+.zc{
+	position: absolute;
+	left: 50.9%;
+	top:80px;
+	width: 47%;
+	height: 80%;
+	text-align: center;
+	font-family: 微软雅黑;
+	background: white;
+	opacity: 1.0;
+	color: black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px; 
+}
+
+#mar{
+	margin-left: 10%;
+}
+a:link {
+    TEXT-DECORATION:none;
+}
